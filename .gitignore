@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# Node / frontend
+node_modules/
+Frontend-React/node_modules/
+Frontend-React/dist/
+Frontend-React/build/
+
+# Java / backend
+Backend-Spring boot/target/
+Backend-Spring boot/.mvn/wrapper/maven-wrapper.jar
+
+# Coverage
+coverage/
